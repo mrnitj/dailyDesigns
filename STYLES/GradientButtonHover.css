@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    border: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 76%);
+    
+
+}
+
+button:hover {
+    /* transform: rotate(180deg); Rotate the button */
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 46%,
+      rgba(9, 9, 121, 1) 98%,
+      rgba(2, 0, 36, 1) 100%
+    );
+  }
+  
+  button:hover span {
+    transform: rotate(-180deg); /* Rotate the text in the opposite direction */
+  }
+  
