@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background: rgb(212, 218, 202);
+} */
+
+.cards{
+    height: 55vh;
+    width: 20vw;
+    background-color:rgba(197, 193, 193, 0.39) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.404), 5px 5px 20px 0px rgba(0, 0, 0, 0.384);
+    /* box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.404); */
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(236,236,249,1) 50%, rgba(0,212,255,1) 50%, rgba(255,255,255,1) 50%);
+    flex-direction: column;
+    display: flex;
+    padding: 22px;
+}
+.card h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align:end ;
+    margin-bottom: 10px;
+}
+
+.card p:nth-child(2){
+    color: rgb(231, 75, 101);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card p:nth-child(3) {
+    text-align: center;
+    color: gray;
+    margin-bottom: 26px;
+    line-height: 1.26;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(231, 75, 101);
+    border-radius: 5PX;
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.281);
+
+}

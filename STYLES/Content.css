@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.meetTheTeam {
+    background-image: url("https://gp-assets-1.growthplug.com/website_files/3750/ekaterina-novitskaya-gLroHoWh_as-unsplash_1.jpg");
+    height: 588.28px;
+    background-color: aqua;
+    padding: 40px 0;
+}
+.meetTheTeam_contents {
+    height: 100%;
+    /* margin: 40px 0; */
+}
+
+.metTheTeam_right {
+    background-color: white;
+    height: 588.28px;
+    max-width: 629.5px;
+    position: absolute;
+    top: 0;
+    padding: 47px 9px;
+}
+.metTheTeam_right .right_txt {
+    margin: 0 94px 0 30px;
+}
+.right_txt h4 {
+    font-family: tahoma, arial, helvetica, sans-serif;
+    color: #236fa1;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    width: 50%;
+    margin:10px 0 ;
+}
+
+.right_txt h1 {
+    font-family: tahoma, arial, helvetica, sans-serif;
+    color: #236fa1;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 20px 0 10px;
+}
+
+.right_txt p strong {
+    font-family: "trebuchet ms", geneva, sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.right_txt p:last-child a {
+    color: white;
+    text-decoration: none;
+    background: #ee742b;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    display: block;
+    max-width: max-content;
+    margin: 20px 0;
+    cursor: pointer;
+}
