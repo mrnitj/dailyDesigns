@@ -1,0 +1,31 @@
+/* AnimationOnHover.css */
+
+div {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  h1 {
+    color: yellow;
+    margin: 0;
+    transition: transform 0.3s ease;
+    transform: translateY(-200px);
+}
+
+div:hover h1 {
+      animation: fadeIn .2s linear 1 forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      transform: translate(0);
+
+    }
+  }
+  
