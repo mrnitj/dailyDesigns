@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.card{
+.card {
     height: 300px;
     width: 300px;
     background-color: rgb(228, 209, 209);
@@ -12,18 +12,16 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 
-.card:hover::after{
-    content: '+';
+.card:hover::after {
+    content: "+";
     position: absolute;
     top: 50%;
     left: 50%;
     background-color: bisque;
     transform: translate(-50%, -50%) scale(0.1);
-    animation: plushover 0.5s .1s linear 1 forwards;
-    
+    animation: plushover 0.5s 0.1s linear 1 forwards;
 }
 
 @keyframes plushover {
